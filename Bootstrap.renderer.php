@@ -79,6 +79,7 @@
 				<div class="navbar-inner">
 					<div class="container">
 						<!-- Title & logo -->
+						<a class="wordmark-org" href="http://www.evergreen.edu">The Evergreen State College</a><br />
 						<a class="brand" href="' . 
 							$this->skin->data['nav_urls']['mainpage']['href'] .'">' . 
 							$GLOBALS['wgSitename'] . 
@@ -89,6 +90,7 @@
 						</div>
 					</div>
 				</div>
+				<div class="subtitle">'. $GLOBALS['wgSitesubname'] . '</div>
 			</nav>');
 
 		// nav-collapse is our reference point
