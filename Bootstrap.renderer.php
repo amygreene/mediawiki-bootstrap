@@ -149,14 +149,14 @@
 		// create user button
 		$userBtn = array(
 			'tag' => 'button',
-			'attr' => array('class' => 'btn btn-warning' ),
+			'attr' => array('class' => 'btn btn-inverse' ),
 			'children' => array(
 				'icon' => array( 'attr'=>array('class' => 'icon-user icon-white' )),
 			)
 		);
 		$caretBtn = array(
 			'tag' => 'button',
-			'attr' => array('class' => 'btn btn-warning dropdown-toggle', 
+			'attr' => array('class' => 'btn btn-inverse dropdown-toggle', 
 											'data-toggle'=>'dropdown'),
 			'children' => array(
 				'span' => array( 'attr' => array('class' => 'caret' ) )
