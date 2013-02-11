@@ -1,0 +1,33 @@
+/*Evergreen customizations*/
+body {
+	font-family: Helvetica,Arial,sans-serif;
+}
+.navbar-inner {
+    background-color: #46502b;
+	background-image: -moz-linear-gradient(center top , #6b7355, #46502b);
+}
+.navbar .brand {
+	color:#ffffff;
+}
+a.wordmark-org {
+	font-size: 1.063rem;
+	font-family: Helvetica,Arial,sans-serif;
+	padding-top:10px;
+	color:#CCCCCC;
+}
+
+.subtitle {
+	padding:5px 0 0 20px;
+	font-size: 1.063rem;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+h3 .editsection {
+	font-size:.6em;
+	font-style:normal;
+}
+
+#user a.new {
+	color:#999;
+	padding-right:2px;
+}
