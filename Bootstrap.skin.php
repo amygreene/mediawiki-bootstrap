@@ -94,7 +94,7 @@
 						<div class="page-header">
 							<h1>
 								<?php $this->html( 'title' ) ?>
-								<small><?php $this->html( 'subtitle' ) ?></small>
+							<!--	<small><?php $this->html( 'subtitle' ) ?></small> -->
 							</h1>
 						</div>	
 						<?php $this->html( 'bodycontent' ); ?>
