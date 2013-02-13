@@ -1,30 +1,56 @@
 /*Evergreen customizations*/
 body {
-	font-family: Helvetica,Arial,sans-serif;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
 }
 ul {
 	list-style-type: square;
 }
-
-
-.navbar-inner {
+.navbar-logo {
     background-color:#46502b;
 	background-image: -moz-linear-gradient(center top , #6b7355, #46502b);
 	background-repeat: repeat-x;
   -webkit-border-radius: 0px;
      -moz-border-radius: 0px;
           border-radius: 0px;
+	padding:5px 0 5px 10px;
+}
+
+.navbar-inner {
+    background-color:#F3F3F3;
+	background-image: -moz-linear-gradient(center top , #FFFFFF, #F3F3F3);
+	background-repeat: repeat-x;
+	border-bottom: 1px solid #D4D4D4;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
 	padding-top:5px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
 }
 
 .navbar .brand {
-	color:#ffffff;
+	color:#999;
 }
 
 .navbar .nav > li > a {
-    color: #FFF;
+    color: #999;
+	text-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
+}
+.navbar .nav > li > a:hover {
+    color: #666;
+	text-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
 }
 
+.navbar .nav li.dropdown .dropdown-toggle .caret, .navbar .nav li.dropdown.open .caret {
+    border-bottom-color: #666;
+    border-top-color: #666;
+}
+
+.navbar .btn-navbar {
+    background-color: #F3F3F3;
+    background-image: -moz-linear-gradient(center top , #F3F3F3, #999);
+
+}
 /*.nav-collapse .dropdown-menu a {
 	color:#CCCCCC;
 }
@@ -52,12 +78,13 @@ a.wordmark-org {
 }
 /*User btn*/
 .btn-inverse {
-    background-color: #46502b;
-    background-image: -moz-linear-gradient(center top , #6b7355, #46502b);
+    background-color: #F3F3F3;
+    background-image: -moz-linear-gradient(center top , #FFFFFF, #F3F3F3);
 }
 #user a.new {
-	color:#ccc;
+	color:#999;
 	padding-right:2px;
+	text-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
 }
 /*search bar*/
 .navbar-search .search-query:-moz-placeholder {
@@ -65,10 +92,13 @@ a.wordmark-org {
 }
 .navbar-search .search-query {
     background-color: #FFFFFF;
+	border:1px solid #CCCCCC;
 }
-.search-query {
+
+.navbar-search .search-query:focus,.navbar-search .search-query:focused {}
+/*.search-query {
     border-radius: 6px 6px 6px 6px;
-}
+}*/
 
 /*fix for edit interface conflict wiht bootstrap class .label*/
 .label, .badge{
@@ -80,7 +110,7 @@ a.wordmark-org {
 
 /*category pages styling*/
 #mw-pages h2, #mw-subcategories h2 {
-    background-color: #DADCD5;
+   /* background-color: #DADCD5;*/
     color: #666;
    font-size: 1.5em;
     margin: 20px 0 0 0;
@@ -88,8 +118,8 @@ a.wordmark-org {
 }
 
 #mw-pages h3, #mw-subcategories h3 {
-    background-color: #ECEDEA;
-    color: #909680;
+    background-color: #F3F3F3;
+    color: #999999;
     font-size: 1.2em;
     margin: 0 40px 0 0;
     padding: 0 0 0 5px;
