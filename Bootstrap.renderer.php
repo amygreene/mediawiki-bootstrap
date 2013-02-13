@@ -90,7 +90,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="subtitle">'. $GLOBALS['wgSitesubname'] . '</div>
+				<div class="subtitle pull-right">'. $GLOBALS['wgSitesubname'] . '</div>
 			</nav>');
 
 		// nav-collapse is our reference point
@@ -293,7 +293,7 @@
 					$fragment= $this->renderSearch();
 					$headerTextNode->parentNode->replaceChild( $fragment, $headerTextNode );
 					break;
-				case 'TOOLBOX': 
+				case 'Toolbox': 
 					$fragment= $this->renderDataLinks( $this->skin->getToolbox() );
 					$headerTextNode->parentNode->appendChild( $fragment );
 					break;
