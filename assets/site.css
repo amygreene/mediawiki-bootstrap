@@ -2,13 +2,34 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 }
-.navbar-inner {
-    background-color: #46502b;
-	background-image: -moz-linear-gradient(center top , #6b7355, #46502b);
+ul {
+	list-style-type: square;
 }
+
+
+.navbar-inner {
+    background-color:#46502b;
+	background-image: -moz-linear-gradient(center top , #6b7355, #46502b);
+	background-repeat: repeat-x;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+	padding-top:5px;
+}
+
 .navbar .brand {
 	color:#ffffff;
 }
+
+.navbar .nav > li > a {
+    color: #FFF;
+}
+
+/*.nav-collapse .dropdown-menu a {
+	color:#CCCCCC;
+}
+*/
+
 a.wordmark-org {
 	font-size: 1.063rem;
 	font-family: Helvetica,Arial,sans-serif;
@@ -17,17 +38,65 @@ a.wordmark-org {
 }
 
 .subtitle {
-	padding:5px 0 0 20px;
+	padding:5px 20px 0 0;
 	font-size: 1.063rem;
 	font-family: Helvetica,Arial,sans-serif;
+	font-style: italic;	
+	color:#CCCCCC;
+
 }
 
-h3 .editsection {
-	font-size:.6em;
+.editsection {
+	font-size:10px;
 	font-style:normal;
 }
-
+/*User btn*/
+.btn-inverse {
+    background-color: #46502b;
+    background-image: -moz-linear-gradient(center top , #6b7355, #46502b);
+}
 #user a.new {
-	color:#999;
+	color:#ccc;
 	padding-right:2px;
+}
+/*search bar*/
+.navbar-search .search-query:-moz-placeholder {
+    color: #999;
+}
+.navbar-search .search-query {
+    background-color: #FFFFFF;
+}
+.search-query {
+    border-radius: 6px 6px 6px 6px;
+}
+
+/*fix for edit interface conflict wiht bootstrap class .label*/
+.label, .badge{
+    background-color:#E0EEF7;
+}
+.tool .label{
+    background-color:#FFFFFF;
+}
+
+/*category pages styling*/
+#mw-pages h2, #mw-subcategories h2 {
+    background-color: #DADCD5;
+    color: #666;
+   font-size: 1.5em;
+    margin: 20px 0 0 0;
+    padding: 0 0 0 5px;
+}
+
+#mw-pages h3, #mw-subcategories h3 {
+    background-color: #ECEDEA;
+    color: #909680;
+    font-size: 1.2em;
+    margin: 0 40px 0 0;
+    padding: 0 0 0 5px;
+}
+
+/*category links at bottom of page */
+.well {
+	padding:8px;
+	margin: 10px 0 0 0;
 }
