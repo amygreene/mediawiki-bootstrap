@@ -76,11 +76,13 @@
 		// generate DOM from boilerplate HTML
 		$this->doc = DOMDocument::loadXML('
 			<nav class="navbar">
+			<div class="navbar-logo">
+			<a class="wordmark-org" href="http://www.evergreen.edu">The Evergreen State College</a><br />
+			</div>
 				<div class="navbar-inner">
 					<div class="container">
 						<!-- Title & logo -->
-						<a class="wordmark-org" href="http://www.evergreen.edu">The Evergreen State College</a><br />
-						<a class="brand" href="' . 
+							<a class="brand" href="' . 
 							$this->skin->data['nav_urls']['mainpage']['href'] .'">' . 
 							$GLOBALS['wgSitename'] . 
 						'</a>
