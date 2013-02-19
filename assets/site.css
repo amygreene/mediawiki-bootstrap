@@ -1,8 +1,9 @@
 /*Evergreen customizations*/
-body {
+/*body {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 14px;
 }
+*/
 ul {
 	list-style-type: square;
 }
@@ -13,9 +14,37 @@ ul {
   -webkit-border-radius: 0px;
      -moz-border-radius: 0px;
           border-radius: 0px;
-	padding:5px 0 5px 10px;
+	padding:5px 0 5px 20px;
 }
 
+a.wordmark-org {
+	font-size: 1.063rem;
+	font-family: Helvetica,Arial,sans-serif;
+	padding-top:10px;
+	color:#CCCCCC;
+}
+
+.subtitle {
+	padding:5px 20px 0 0;
+	font-size: 1.063rem;
+	font-family: Helvetica,Arial,sans-serif;
+	font-style: italic;	
+	color:#CCCCCC;
+
+}
+
+#user a.new {
+	color:#999;
+	padding-right:2px;
+	text-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
+}
+
+.editsection {
+	font-size:11px;
+	font-style:normal;
+}
+
+/* bs--
 .navbar-inner {
     background-color:#F3F3F3;
 	background-image: -moz-linear-gradient(center top , #FFFFFF, #F3F3F3);
@@ -31,7 +60,7 @@ ul {
 .navbar .brand {
 	color:#999;
 }
-
+/*
 .navbar .nav > li > a {
     color: #999;
 	text-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
@@ -51,42 +80,22 @@ ul {
     background-image: -moz-linear-gradient(center top , #F3F3F3, #999);
 
 }
-/*.nav-collapse .dropdown-menu a {
-	color:#CCCCCC;
-}
+
+
+
+
+
+
 */
-
-a.wordmark-org {
-	font-size: 1.063rem;
-	font-family: Helvetica,Arial,sans-serif;
-	padding-top:10px;
-	color:#CCCCCC;
-}
-
-.subtitle {
-	padding:5px 20px 0 0;
-	font-size: 1.063rem;
-	font-family: Helvetica,Arial,sans-serif;
-	font-style: italic;	
-	color:#CCCCCC;
-
-}
-
-.editsection {
-	font-size:10px;
-	font-style:normal;
-}
 /*User btn*/
-.btn-inverse {
+/*.btn-inverse {
     background-color: #F3F3F3;
     background-image: -moz-linear-gradient(center top , #FFFFFF, #F3F3F3);
 }
-#user a.new {
-	color:#999;
-	padding-right:2px;
-	text-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
-}
+
+*/
 /*search bar*/
+/*
 .navbar-search .search-query:-moz-placeholder {
     color: #999;
 }
@@ -94,13 +103,10 @@ a.wordmark-org {
     background-color: #FFFFFF;
 	border:1px solid #CCCCCC;
 }
-
-.navbar-search .search-query:focus,.navbar-search .search-query:focused {}
-/*.search-query {
-    border-radius: 6px 6px 6px 6px;
-}*/
+*/
 
 /*fix for edit interface conflict wiht bootstrap class .label*/
+
 .label, .badge{
     background-color:#E0EEF7;
 }
@@ -123,6 +129,7 @@ a.wordmark-org {
     font-size: 1.2em;
     margin: 0 40px 0 0;
     padding: 0 0 0 5px;
+	line-height: 30px;
 }
 
 /*category links at bottom of page */
