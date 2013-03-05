@@ -71,6 +71,14 @@ input[type="checkbox"] {
 input + label {
   margin-left: 0.5ex;
 }
+/* Hide the [] around edit */
+.editsection {
+  font-size: 0;
+}
+.editsection a {
+  font-size: 12px;
+  color:#84C5E3;
+}
 
 /*category pages styling*/
 #mw-pages h2, #mw-subcategories h2 {
