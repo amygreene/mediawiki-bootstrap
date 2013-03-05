@@ -122,6 +122,20 @@ a.wordmark-org {
     background-color:#FFFFFF;
 }
 
+/* Fix mediawiki radio & checkbox */
+label {
+  display: inline-block;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-top: 0;
+}
+
+input + label {
+  margin-left: 0.5ex;
+}
+
 /*category pages styling*/
 #mw-pages h2, #mw-subcategories h2 {
    /* background-color: #DADCD5;*/
