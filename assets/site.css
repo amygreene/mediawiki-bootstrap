@@ -103,3 +103,194 @@ input + label {
 	padding:8px;
 	margin: 10px 0 0 0;
 }
+
+/*Help Wiki styles*/
+.topics {
+	width: 48%; 
+	margin:0px 10px 0 0; 
+	float:left; 
+
+}
+.topics-right {
+	width: 48%; 
+	margin:0px 0 0 15px; 
+	float:left; 
+
+}
+
+.topics ul {
+	list-style-type:circle;
+	color:#ccc;
+	list-style-image:none;
+	margin: 0.3em 0 0 1.5em;
+}
+.topics-right ul {
+	list-style-type:circle;
+	color:#ccc;
+	list-style-image:none;
+	margin: 0.3em 0 0 1.5em;
+}
+
+.topics h3{
+	color:#555;
+	line-height:1em;
+	font-family:"Helvetica Neue",Helvetica,Verdana,Arial;
+	font-size:22px;
+	font-weight:lighter;
+	margin: .2em 0 0 .5em;
+}
+.topics-right h3{
+	color:#555;
+	line-height:1em;
+	font-family:"Helvetica Neue",Helvetica,Verdana,Arial;
+	font-size:22px;
+	font-weight:lighter;
+	margin: .2em 0 0 .5em;
+}
+
+.help {
+background-color: #F9F9F9;
+padding: 10px;
+border: 1px solid #e5e5e5;
+clear:right;
+margin-top:30px;
+
+
+}
+.help h3{
+	margin: 0;
+	font-family: "Helvetica Neue",Helvetica,Verdana,Arial;
+    font-weight: lighter;
+}
+.help p{
+	font-family:arial;
+}
+
+.help hr {
+	background-color:#e5e5e5;
+	margin:0px 5px;
+}
+
+.help-main {
+	background-color: #BDDDEC;
+	padding: 10px;
+	border-right:1px solid #e5e5e5;
+	border-left:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+}
+.help-main h3{
+	margin: 0;
+	font-family: "Helvetica Neue",Helvetica,Verdana,Arial;
+    font-weight: lighter;
+	color:#fff;
+	text-align:center;
+
+}
+.help-main ul li{
+	list-style-type:none;
+	list-style-image:none;
+	display: inline;
+
+}
+
+.clear-left {
+	clear:left; 
+	height:10px;
+}
+
+.topicSubnav {
+	font-size:75%;
+	text-align:right;
+	/*margin:-8px 3px 0;*/
+}
+
+
+.highlight p{
+	color:#555;
+	float:left;
+	line-height:1em;
+	font-family:"Helvetica Neue",Helvetica,Verdana,Arial;
+	font-size:22px;
+	font-weight:lighter;
+}
+
+/* tag cloud styling*/
+.topics-tagcloud {
+	margin:0px 0 0 0px; 
+	border:1px solid #EEEEEE;
+	font:9.5pt Verdana,sans-serif;
+	background: url("http://www.evergreen.edu/inc/images/left.gif") no-repeat scroll left bottom #fff;
+
+}
+.topics-tagcloud h3{
+	color:#555;
+	line-height:1em;
+	font-family:"Helvetica Neue",Helvetica,Verdana,Arial;
+	font-size:22px;
+	font-weight:lighter;
+	text-align:center;
+}
+.tagcloud {
+	/*width: 98%;*/
+	text-align: center;
+    line-height: 1.2em;
+	font-size:1.3em;
+	margin:0px 0px 50px 0px;
+}
+.tagcloud a {
+	padding: 5px 5px;
+	font-weight: normal;
+}
+.intro-main {
+background-color: none;
+padding: 10px;
+font-size: 1em;
+line-height: 1.3em;
+}
+
+.intro {
+background-color: #FFFFFF;
+margin: 20px 0px 20px 0;
+padding: 20px;
+font-size: 1.1em;
+line-height: 1.3em;
+overflow:auto;
+/*border:1px solid #DADCD5;*/
+border-radius: 3px 3px 3px 3px;
+border-width: 10px 1px 1px;
+border-style:solid;
+border-color:#ECEDEA;
+box-shadow: 3px 3px 4px #CCCCCC;
+clear:both;
+}
+
+.facstaff {
+background-color: #964233;
+border-radius: 3px 3px 3px 3px;
+color:#ffffff;
+padding:3px 8px;
+display:inline;
+font-size:.8em;
+float:right;
+margin:0 0px 5px 0;
+}
+/*.createbox {
+margin-top: -55px;
+}
+*/
+.infobox {
+    background: -moz-linear-gradient(0% 100% 90deg, #fff, #d2dfe4) repeat scroll 0 0 transparent;
+	border: 1px solid #CCCCCC;
+	  /*  border-radius: 0.65em 0.65em 0.65em 0.65em;*/
+    box-shadow: 0 0 5px #FFFFFF inset;
+	line-height: 1.5;
+	padding: 6px;
+	text-shadow: 0 1px 0 #EEEEEE;
+	min-height:40px;
+	text-align:left;
+	}
+
+
+
+
+
