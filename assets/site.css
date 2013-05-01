@@ -263,7 +263,9 @@ border-color:#ECEDEA;
 box-shadow: 3px 3px 4px #CCCCCC;
 clear:both;
 }
-
+.intro img {
+	margin-right:20px;
+}
 .facstaff {
 background-color: #964233;
 border-radius: 3px 3px 3px 3px;
