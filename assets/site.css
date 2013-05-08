@@ -280,16 +280,19 @@ margin:0 0px 5px 0;
 margin-top: -55px;
 }
 */
-.infobox {
-    background: -moz-linear-gradient(0% 100% 90deg, #fff, #d2dfe4) repeat scroll 0 0 transparent;
-	border: 1px solid #CCCCCC;
-	  /*  border-radius: 0.65em 0.65em 0.65em 0.65em;*/
-    box-shadow: 0 0 5px #FFFFFF inset;
-	line-height: 1.5;
-	padding: 6px;
-	text-shadow: 0 1px 0 #EEEEEE;
-	min-height:40px;
-	text-align:left;
+
+/*Taxobox*/
+	table.infobox {
+	   background: none repeat scroll 0 0 #F9F9F9;
+	   border: 1px solid #AAAAAA;
+	   clear: right;
+	   color: black;
+	   float: right;
+	   margin: 0.5em 0 0.5em 1em;
+	   padding: 0.2em;
+	  box-shadow: none;
+	  border-collapse: separate;
+	  border-spacing: 0.2em;
 	}
 
 
