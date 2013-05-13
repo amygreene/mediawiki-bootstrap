@@ -77,7 +77,7 @@
 		$this->doc = DOMDocument::loadXML('
 			<nav class="navbar">
 			<div class="navbar-logo">
-			<a class="wordmark-org" href="http://www.evergreen.edu">The Evergreen State College</a><br />
+			<a class="wordmark-org" href="http://www.evergreen.edu">The Evergreen State College</a>
 			</div>
 				<div class="navbar-inner">
 					<div class="container">
