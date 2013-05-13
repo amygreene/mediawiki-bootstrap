@@ -47,6 +47,10 @@ a.wordmark-org {
 	font-style:normal;
 }
 
+/*Breadcrumbs*/
+.breadcrumbs {
+padding-bottom:20px;
+}
 
 /*fix for edit interface conflict wiht bootstrap class .label*/
 
