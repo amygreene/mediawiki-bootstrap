@@ -1,8 +1,7 @@
 /*Evergreen customizations*/
-
 ul {
-	list-style-type: square;
-}
+	list-style-type: round;
+	}
 .navbar-logo {
     background-color:#64933a;
 	padding:5px 0 5px 16px;
