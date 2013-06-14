@@ -1,4 +1,7 @@
 /*Evergreen customizations*/
+hr {
+	margin:0;
+}
 ul {
 	list-style-type: round;
 	}
@@ -298,6 +301,18 @@ margin-top: -55px;
 	}
 
 
+/*image thumbnails*/
+	.thumbinner {
+		margin-bottom:5px;
+		padding:3px;
+		border:1px solid #ccc;
+	}
 
-
-
+.gradientbox {
+	padding:0 2% 2% 2%;
+	background-color: #FAFAFA;
+    background-image: linear-gradient(to bottom, #FFFFFF, #F2F2F2);
+    background-repeat: repeat-x;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+}
