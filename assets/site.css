@@ -309,7 +309,7 @@ margin-top: -55px;
 	}
 
 .gradientbox {
-	padding:0 2% 2% 2%;
+	padding:2%;
 	background-color: #FAFAFA;
     background-image: linear-gradient(to bottom, #FFFFFF, #F2F2F2);
     background-repeat: repeat-x;
