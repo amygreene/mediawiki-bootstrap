@@ -342,3 +342,9 @@ margin-top: -55px;
     display: block;
     margin-right:.5em;
 }
+
+@media print {
+	nav, footer{display:none;}
+	a:after {display: none;}
+	@page {	margin: 1.5cm;}
+}
