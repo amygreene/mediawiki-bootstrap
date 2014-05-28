@@ -276,6 +276,9 @@ clear:both;
 .intro img {
 	margin-right:20px;
 }
+.floatleft img{
+	margin-right: 10px;
+}
 .facstaff {
 background-color: #964233;
 border-radius: 3px 3px 3px 3px;
